@@ -1,8 +1,24 @@
-import React from "react";
-import "./App.css";
+import './suvhom199.css';
+import Login from './Components/Login';
+import Contact from './Components/Contact';
+import Footer from './Components/Footer';
+import Header from './Components/Header';
+import Navbar from './Components/Navbar';
+import Who from './Components/Who';
+import Why from './Components/Why';
 
-const App = () => {
-  return <div className="App">Suvidha Foundation</div>;
-};
+function App() {
+  return (
+    <div className="suvi99">
+    
+      <Header/>
+      <Who/>
+      <Why/>
+      <Contact/>
+ 
+      {/* <Login/> */}
+    </div>
+  );
+}
 
 export default App;
